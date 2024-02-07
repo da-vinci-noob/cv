@@ -1,0 +1,20 @@
+{
+  "name": "minimalist-cv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.10"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "yarn": "^1.22.21"
+  }
+}
