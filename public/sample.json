@@ -1,0 +1,69 @@
+{
+  "name": "Your Name",
+  "description": "Your Job Title",
+  "avatar": "Your Avatar url example: http://github.com/username.png",
+  "location": {
+    "title": "Your Location title",
+    "link": "Your location link eg: Google Maps link"
+  },
+  "contact": {
+    "email": "yourEmail@example.com",
+    "phone": "Your Phone Number",
+    "social": [
+      { "name": "Github", "url": "https://github.com/username" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ]
+  },
+  "about": "About Your Self",
+  "workExp": [
+    {
+      "company": "Company 2",
+      "position": "Company 2 Job Position",
+      "startYear": "2023",
+      "startMonth": "Apr",
+      "endYear": "",
+      "endMonth": "",
+      "badges": [""],
+      "description": "Your Job description"
+    },
+    {
+      "company": "Company 1",
+      "position": "Company 1 Job Position",
+      "startYear": "2019",
+      "startMonth": "Aug",
+      "endYear": "2022",
+      "endMonth": "Apr",
+      "badges": ["Remote"],
+      "description": "Your Job description"
+    }
+  ],
+  "education": [
+    {
+      "school": "Your University",
+      "degree": "Your Course",
+      "startYear": "2017",
+      "endYear": "2019"
+    },
+    {
+      "school": "Your University",
+      "degree": "Your Other course",
+      "startYear": "2014",
+      "endYear": "2017"
+    }
+  ],
+  "skills": ["Ruby on Rails", "TailwindCSS"],
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "Project 1 Description",
+      "badges": ["Badge1", "Badge2"],
+      "url": ""
+    },
+    {
+      "title": "Project 2",
+      "description": "Project 2 Description",
+      "badges": ["Badge", ""],
+      "url": "https://github.com/username/project"
+    }
+  ]
+}

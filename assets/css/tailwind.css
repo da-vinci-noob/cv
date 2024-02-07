@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .muted {
+    @apply opacity-60;
+  }
+  .heading {
+    @apply text-2xl font-bold;
+  }
+  .content {
+    @apply font-mono text-sm muted;
+  }
+  .work-exp-sub-heading {
+    @apply text-base font-semibold leading-none;
+  }
+}

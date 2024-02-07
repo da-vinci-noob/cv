@@ -29,6 +29,18 @@
       }
     },
     {
+      "files": "*.ts",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
       "files": "*.vue",
       "options": {
         "vueIndentScriptAndStyle": false,
