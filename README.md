@@ -1,75 +1,41 @@
-# Nuxt 3 Minimal Starter
+# Minimalistic CV
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3 (VueJS) WebApp that generates a minimal CV.
 
-## Setup
+## Setup Locally
 
-Make sure to install the dependencies:
+1. Clone Repository.
+    ```
+    git clone https://github.com/da-vinci-noob/cv.git
+    ```
+2. Move into the directory.
+    ```
+    cd cv
+    ```
+3. Install Dependencies
+    ```
+    yarn install
+    ```
+4. Run the server
+    ```
+    yarn dev
+    ```
+5. Download Sample.json file from the homepage.
+6. Edit the [Sample.json](https://github.com/da-vinci-noob/cv/blob/main/public/sample.json) file with add your own information and skills.
+7. Upload the sample file on the homepage.
+8. You can now view your CV in the browser.
 
-```bash
-# npm
-npm install
+Note: You can Copy the content of the Sample.json file and add it to the Environment Variable `USER_DETAILS` for the persistent data, without having to upload the JSON file everytime. (Remember to delete all the new line characters from the ENV Var if any issue persists).
 
-# pnpm
-pnpm install
+## Features/Tech
 
-# yarn
-yarn install
+* This project was built using Nuxt 3, Vue 3, TailwindCSS.
+* This project has been tested on Node v20.5.0, Please make sure you have Node installed before proceeding.
+* Responsive to all the devices. 
 
-# bun
-bun install
-```
 
-## Development Server
+Note: The app is built using Nuxt.js, which means it's a Vue project with additional features provided by Nuxt.
 
-Start the development server on `http://localhost:3000`:
+Thanks, Contributions are welcome! <3.
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Made with :heart: and ![Nuxt](https://img.shields.io/badge/-NuxtJS-000000?style=flat&logo=nuxtdotjs) / ![Vue](https://img.shields.io/badge/-VueJS-000000?style=flat&logo=vuedotjs)
