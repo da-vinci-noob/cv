@@ -2,6 +2,10 @@
 
 Nuxt 3 (VueJS) WebApp that generates a minimal CV.
 
+<p align="center">
+    <img src="https://github.com/da-vinci-noob/cv/assets/67788600/b552ff81-04e7-4468-b1b8-b4666c26fe51" align="center" width="480" >
+</p>
+
 ## Setup Locally
 
 1. Clone Repository.
