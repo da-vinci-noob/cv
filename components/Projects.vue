@@ -27,14 +27,16 @@ const goToSite = (url) => {
             class="flex flex-col overflow-hidden h-full justify-between"
           >
             <div class="flex flex-col space-y-1.5">
-              <div
+              <a
                 id="project-title"
                 class="work-exp-sub-heading"
-                @click="goToSite(project.url)"
+                :href="project.url"
                 :class="{ 'cursor-pointer hover:underline': project.url }"
+                target="_blank"
+                rel="noreferrer"
               >
                 {{ project.title }}
-              </div>
+              </a>
               <div id="project-description" class="content text-xs">
                 {{ project.description }}
               </div>
