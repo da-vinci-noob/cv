@@ -20,7 +20,7 @@ const userDetails = computed(() => {
     class="mx-auto scroll-my-12 overflow-auto p-4 print:p-2 md:p-16"
     v-if="userDetails"
   >
-    <div class="mx-auto w-full max-w-2xl space-y-8 bg-white">
+    <div class="mx-auto w-full max-w-2xl space-y-4 bg-white">
       <Designation :user="userDetails" :key="userDetails.name" />
       <About :user="userDetails" :key="userDetails.name" />
       <WorkExperience :user="userDetails" :key="userDetails.name" />
