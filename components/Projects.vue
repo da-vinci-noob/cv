@@ -27,16 +27,19 @@ const goToSite = (url) => {
             class="flex flex-col overflow-hidden h-full justify-between"
           >
             <div class="flex flex-col space-y-1.5">
-              <a
-                id="project-title"
-                class="work-exp-sub-heading"
-                :href="project.url"
-                :class="{ 'cursor-pointer hover:underline': project.url }"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {{ project.title }}
-              </a>
+              <div class="work-exp-sub-heading leading-tight">
+                <a
+                  v-if="project.url"
+                  id="project-title"
+                  :href="project.url"
+                  class="cursor-pointer underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {{ project.title }}
+                </a>
+                <div v-else>{{ project.title }}</div>
+              </div>
               <div id="project-description" class="content text-xs">
                 {{ project.description }}
               </div>
