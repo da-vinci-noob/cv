@@ -63,7 +63,8 @@
       "title": "Project 2",
       "description": "Project 2 Description",
       "badges": ["Badge", ""],
-      "url": "https://github.com/username/project"
+      "sourceCode": "https://github.com/url-to-source-code",
+      "liveDemo": "https://url-to-live-demo"
     }
   ]
 }
