@@ -47,7 +47,7 @@ const goToSite = (url) => {
               </div>
             </div>
             <div
-              class="mt-2 flex gap-2 text-xs border-t border-gray-100 pt-2"
+              class="mt-2 flex gap-2 text-xs border-t border-gray-100 pt-2 print:hidden"
               v-if="project.sourceCode || project.liveDemo"
             >
               <a

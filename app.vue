@@ -33,3 +33,12 @@ const userDetails = computed(() => {
     <UploadUserDetails />
   </div>
 </template>
+
+<style>
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+</style>

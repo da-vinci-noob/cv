@@ -2,16 +2,20 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/tailwind.css'],
+
   runtimeConfig: {
     public: {
       user: process.env.USER_DETAILS
     }
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
     }
   },
-  modules: ['@pinia/nuxt']
+
+  modules: ['@pinia/nuxt'],
+  compatibilityDate: '2025-01-03'
 })
