@@ -51,7 +51,7 @@ const sortedUserExperience = computed(() => {
               }}
             </div>
           </div>
-          <div id="position" class="content tracking-wide opacity-80 mt-1">
+          <div id="position" class="content tracking-wide text-gray-600 mt-1">
             {{ work.position }}
           </div>
           <div id="description" class="content mt-2 text-xs print:text-[10px]">
