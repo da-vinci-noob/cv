@@ -7,12 +7,12 @@
     @apply opacity-60;
   }
   .heading {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-bold print:text-xl;
   }
   .content {
-    @apply font-mono text-sm muted;
+    @apply font-mono text-sm muted print:text-xs;
   }
   .work-exp-sub-heading {
-    @apply text-base font-semibold leading-none;
+    @apply text-base font-semibold leading-none print:text-sm;
   }
 }

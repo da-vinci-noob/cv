@@ -34,7 +34,7 @@ const sortedUserExperience = computed(() => {
                 <div
                   v-for="badge in work.badges.filter((n) => n)"
                   :key="badge"
-                  class="text-xs"
+                  class="text-xs print:text-[10px]"
                 >
                   <span class="bg-gray-200 px-2 py-1 rounded-md">
                     {{ badge }}
@@ -54,7 +54,7 @@ const sortedUserExperience = computed(() => {
           <div id="position" class="content tracking-wide opacity-80 mt-1">
             {{ work.position }}
           </div>
-          <div id="description" class="content mt-2 text-xs">
+          <div id="description" class="content mt-2 text-xs print:text-[10px]">
             {{ work.description }}
           </div>
         </div>

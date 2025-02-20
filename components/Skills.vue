@@ -10,7 +10,7 @@ const props = defineProps({
       <h1 id="skills-heading" class="heading">Skills</h1>
       <div
         id="skill-badges"
-        class="flex text-xs font-semibold font-mono mt-3 flex-wrap gap-1"
+        class="flex text-xs print:text-[10px] font-semibold font-mono mt-3 flex-wrap gap-1"
       >
         <div
           v-for="(skill, index) in user?.skills"

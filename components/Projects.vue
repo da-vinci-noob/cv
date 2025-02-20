@@ -30,7 +30,10 @@ const goToSite = (url) => {
               <div class="work-exp-sub-heading leading-tight">
                 {{ project.title }}
               </div>
-              <div id="project-description" class="content text-xs">
+              <div
+                id="project-description"
+                class="content text-xs print:text-[10px]"
+              >
                 {{ project.description }}
               </div>
             </div>
@@ -51,13 +54,13 @@ const goToSite = (url) => {
                 </div>
               </div>
               <div
-                class="mt-2 flex gap-2 text-xs border-t border-gray-100 pt-2 print:hidden"
+                class="mt-2 flex gap-2 text-xs print:text-[10px] border-t border-gray-100 pt-2 print:hidden"
                 v-if="project.sourceCode || project.liveDemo"
               >
                 <a
                   v-if="project.sourceCode"
                   :href="project.sourceCode"
-                  class="inline-flex items-center bg-white border border-indigo-200 hover:border-indigo-300 px-2 py-1 rounded-md text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50 transition-all duration-200 text-[11px] font-medium"
+                  class="inline-flex items-center bg-white border border-indigo-200 hover:border-indigo-300 px-2 py-1 rounded-md text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50 transition-all duration-200 text-[11px] print:text-[9px] font-medium"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -80,7 +83,7 @@ const goToSite = (url) => {
                 <a
                   v-if="project.liveDemo"
                   :href="project.liveDemo"
-                  class="inline-flex items-center bg-white border border-indigo-200 hover:border-indigo-300 px-2 py-1 rounded-md text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50 transition-all duration-200 text-[11px] font-medium"
+                  class="inline-flex items-center bg-white border border-indigo-200 hover:border-indigo-300 px-2 py-1 rounded-md text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50 transition-all duration-200 text-[11px] print:text-[9px] font-medium"
                   target="_blank"
                   rel="noreferrer"
                 >
